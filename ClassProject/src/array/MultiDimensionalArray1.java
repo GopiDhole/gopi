@@ -25,10 +25,10 @@ public class MultiDimensionalArray1 {
 			System.out.println();
 		}
 		
-		String name[][]= {{"Velocity","Corporate","training"},{"Center","Katraj","Pune"}};
+		String name[][]= {{"Velocity","Corporate","training"},{"Center","  Katraj","   Pune"}};
 		for(int i=0;i<=1;i++)
 		{
-			for(int j=0;j<=1;j++)
+			for(int j=0;j<=2;j++)
 			{
 			System.out.print(name[i][j]+"   ");
 			}

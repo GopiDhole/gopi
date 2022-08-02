@@ -30,7 +30,6 @@ public class Array1 {
 		
 		for(int i=0;i<=3;i++) //static coding
 		{
-		
 		System.out.println(grade[i]);
 		}
 		System.out.println("========================");
@@ -47,8 +46,6 @@ public class Array1 {
 		}
 		System.out.println("========================");
 		
-		
-		
 		for(int i=grade.length-1;i>=0;i--)//reverse dynamic coding
 		{
 			System.out.println(grade[i]);
@@ -62,10 +59,8 @@ public class Array1 {
 		
 		for(int i=0;i<=name.length-1;i++) //dynamic coding 
 		{
-			System.out.println(name[i]);
-			
+			System.out.println(name[i]);	
 		}
-		
 		System.out.println("========================");
 		for(int i=0;i<=2;i++) //static coding
 		{
@@ -78,6 +73,13 @@ public class Array1 {
 			System.out.println(name[i]);
 		}
 		System.out.println("========================");
+		
+		for(int i=2;i>=0;i--)//reverse static coding
+		{
+			System.out.println(name[i]);
+		}
+		System.out.println("========================");
+		
 		int rollNo[]= {6,2,4,9,1,7};// declaration and initialization
 		for(int i=0;i<=5;i++)//static coding
 		{
@@ -97,7 +99,7 @@ public class Array1 {
 		}
 		System.out.println("========================");
 		
-		//sort method
+		//sort method--> numbers in a serial wise
 		Arrays.sort(rollNo);
 		for(int i=0;i<=rollNo.length-1;i++)
 		{

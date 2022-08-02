@@ -11,11 +11,11 @@ public class AssertNullUse {
 	  String a=null;
 	  String b="abc";
 	  
-//	  Assert.assertNull(b, "TC is FAiled value is not null");
-//	  Reporter.log("TC is passed value is null",true);
+	  Assert.assertNull(a, "TC is FAiled value is not null");
+	  Reporter.log("TC is passed value is null",true);
 	  
-	  Assert.assertNotNull(b, "TC is Failed value is null");
-	  Reporter.log("TC is passed Value is not null",true);
-	  Assert.fail();
+//	  Assert.assertNotNull(b, "TC is Failed value is null");
+//	  Reporter.log("TC is passed Value is not null",true);
+	  //Assert.fail();
 	   }
 }

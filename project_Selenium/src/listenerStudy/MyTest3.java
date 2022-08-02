@@ -18,7 +18,7 @@ public class MyTest3 {
 		Assert.fail();
 	}
 	@Test(dependsOnMethods= {"myMethod8"})
-	public void myMethod9
+	public void myMethod9()
 	{
 		Reporter.log("Hi I am myMethod9 ",true);
 	}

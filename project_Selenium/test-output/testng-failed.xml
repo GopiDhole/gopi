@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="listenerStudy.MyTest2">
+      <class name="verificationUsingTestNG.SampleSoftAssert">
         <methods>
-          <include name="myMethod6"/>
-          <include name="myMethod5"/>
+          <include name="f"/>
         </methods>
-      </class> <!-- listenerStudy.MyTest2 -->
+      </class> <!-- verificationUsingTestNG.SampleSoftAssert -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

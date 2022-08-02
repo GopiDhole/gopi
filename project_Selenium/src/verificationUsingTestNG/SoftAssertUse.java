@@ -1,5 +1,6 @@
 package verificationUsingTestNG;
 
+import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
@@ -15,7 +16,9 @@ public class SoftAssertUse {
 	  soft.assertNotEquals(a, b, "Both are  equal TC is Failed");
 	  Reporter.log("Both are not equal TC is pass",true);
 	  soft.assertNull(a, "Value is not null TC is failed");
+	  soft.assertNotNull(b, "value is null tc is failed");
 	  Reporter.log("value is null TC is pass",true);
+	  //Assert.fail();
 	  soft.assertAll();
   }
   @Test
